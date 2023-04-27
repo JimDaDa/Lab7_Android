@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?selectableItemBackground"
+    android:paddingTop="25dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="72dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/my_ic_user_phone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Phone number" />
+
+    </LinearLayout>
+
+</LinearLayout>
